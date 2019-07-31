@@ -2,8 +2,8 @@ Please read this IBM license agreement (called the "Agreement") carefully. Your 
 documentation (called the "Software") indicates your acceptance of the following terms and conditions. 
 If you do not agree to these terms and conditions, you may not install or use the Software.
 
-**BY DOWNLOADING THIS SOFTWARE, YOU VERIFY THAT YOU ARE A REPRESENTATIVE OF A NONPROFIT OR ACADEMIC INSTITUTION AND 
-THAT YOU WILL USE THIS SOFTWARE FOR NON-COMMERCIAL, RESEARCH PURPOSES ONLY.**
+BY DOWNLOADING THIS SOFTWARE, YOU VERIFY THAT YOU ARE A REPRESENTATIVE OF A NONPROFIT OR ACADEMIC INSTITUTION AND 
+THAT YOU WILL USE THIS SOFTWARE FOR NON-COMMERCIAL, RESEARCH PURPOSES ONLY.
 
 The Software that is made available through this IBM World Wide Web site is not generally available software. 
 It has not undergone complete testing and may contain errors. It may not function properly and is subject to change at any 
@@ -15,7 +15,7 @@ stage in order to allow you to evaluate the Software in its developmental stage.
 
 We encourage your feedback and suggestions.
 
-## 1. Ownership and License.
+1. Ownership and License.
 The Software is owned by International Business Machines Corporation or one of its subsidiaries ("IBM") and is copyrighted 
 and licensed, not sold.
 
@@ -27,11 +27,11 @@ IF YOU ARE INTERESTED IN ACCESS TO THIS SOFTWARE FOR COMMERCIAL, FOR-PROFIT PURP
 You may copy the Software for backup only. You may not: 1) merge, distribute (for free or for sale) or sublicense the Software;
 2) reverse assemble, reverse compile, or otherwise translate the Software.
 
-## 2. Term and Termination 
+2. Term and Termination 
 This Agreement will terminate ninety (90) days after the date on which you receive the Software. At the end of the 90 days, 
 you may return to this site and obtain another license if you would like to continue to use the Software.
 
-## 3. Warranty Disclaimer and Limitation of Liability 
+3. Warranty Disclaimer and Limitation of Liability 
 IBM licenses the Software to you on an "as is" basis, without warranty of any kind. IBM hereby expressly disclaims all 
 warranties or conditions, either express or implied, including, but not limited to, the implied warranties or conditions of 
 merchantability and fitness for a particular purpose and any warranty of non-infringement. You are solely responsible for 
@@ -45,12 +45,12 @@ IBM will not be liable for the loss of, or damage to, your records or data, or a
 party claim. Some jurisdictions do not allow for the exclusion or limitation of incidental or consequential damages, so the 
 above limitations or exclusions may not apply to you.
 
-## 4. License Rights 
+4. License Rights 
 You hereby grant to IBM an irrevocable license under all intellectual property rights (including copyright) to use, copy, 
 distribute, sublicense, display, perform and prepare derivative works based upon any feedback, including materials, fixes, 
 error corrections, enhancements, suggestions and the like that you provide to IBM.
 
-## 5. General 
+5. General 
 This Agreement is governed by the laws of the State of New York. This Agreement is the only understanding and agreement we 
 have regarding your use of the Software. It supersedes all other communications, understandings or agreements we may have 
 had prior to this Agreement.
