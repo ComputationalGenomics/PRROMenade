@@ -22,7 +22,7 @@ For instance:
 
 ## Citation
 
-Please cite the following article if you use PRROMeande:
+Please cite the following article if you use PRROMenade:
 
 Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Scalable Functional and Pathway Characterization of Microbiomes; (manuscript submitted) 
 
