@@ -10,7 +10,7 @@ To enhance current capabilities for studying metagenomes and metatranscriptomes,
                                                                                   
 For instance:
 
-` ./taxonomic-indexer -s /home/metagenomic/mi-faser/prromenade/mifaser_formatted.faa -n /home/metagenomic/mi-faser/prromenade/mifaser_child_parent.dmp -g /home/metagenomic/mi-faser/prromenade/mifaser_name_taxid.dmp `
+` ./taxonomic-indexer -s /home/metagenomic/database_folder/sequences.faa -n /home/metagenomic/database_folder/child_parent.dmp -g  /home/metagenomic/database_folder/name_taxid.dmp `
 
 ### Classification
 
