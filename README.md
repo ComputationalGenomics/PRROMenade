@@ -26,3 +26,64 @@ Please cite the following article if you use PRROMenade:
 
 Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Scalable Functional and Pathway Characterization of Microbiomes; (manuscript submitted) 
 
+
+## Input files and formats
+
+### sequences.fa[a]
+
+The N database sequences are given in fasta format of amino acid sequences. The database sequence name (any string without `|`) is followed by its associated taxonomic identifier (taxid) and followed by a unique name (number 1...N). All fields are separated by `|`.
+
+Example:
+
+
+```
+>sequence_A|2|1
+WEQQEFQKHNCIFDETFFNPPRMYGHHVVY
+>sequence_B|2|2 
+KYQTLMVINQPMPVDIMGVMIVRHYQCHPVTQFNCTDHMWPLGKHATVKDRHSCSPGFSPAPFPMPWVSQA
+>sequence_C|4|3 
+VSQAMCIHGDDLHTGQLLNKYLI
+...
+>sequence_AHGDA|2|N
+YWKEKYEFVGCNFHIKYKTCQFEMSNSVPIGEHYLHYEPD
+```
+
+### name_taxid.dmp
+
+The relationship between each database sequence name and its taxonomic identifier (taxid) are given in this file. The taxonomic identifiers correspond to nodes in the taxonomy. Several database sequences can map to the same taxid. The information in this file must match that in the database sequences file above.
+
+Example:
+
+```
+1    2
+2    2 
+3    4
+...
+N    2
+```
+
+### child_parent.dmp
+
+The parent of each taxonomic node is given, using the taxonomic identifiers (taxid). This file defines the taxonomy tree. Note that each node has a single parent, except the root denoted with taxid `1` has no parent. The first column is taxid of a node and the second column is the taxid of its parent. The columns are separated by tabs and '|' separators as below.
+
+Example:
+
+```
+2    |    1    |
+3    |    1    |
+4    |    2    |
+```
+
+### reads.fa[.gz]
+
+The sequencing reads (the queries) are given in fasta of gzipped fasta format. Paired reads should be classified as two separate files and the results combined after PRROMenade classification.
+
+Example:
+
+```
+>read1
+ACGTACGATCGATCGTACGACTTCATTTTAGCTCGATGCACGGGCGG
+>read2
+CAGCTGCTGACTAGCTATATATCATCTATACTTTTTTACGATGCACG
+...
+```
