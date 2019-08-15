@@ -38,7 +38,7 @@ For instance:
 
 ### sequences.fa[a]
 
-The N database sequences are given in fasta format of amino acid sequences. The database sequence name (any string without `|`) is followed by its associated taxonomic identifier (taxid) and followed by a unique name (number 1...N). All fields are separated by `|`.
+The N database sequences are given in fasta format of amino acid sequences. The database sequence name (any string without `|`) is followed by its associated taxonomic identifier (taxid) and followed by a unique name (number 1...N). All fields in the sequence header are separated by `|`, like this `>sequenceDescription|taxid|name`.
 
 Example:
 
@@ -57,7 +57,7 @@ YWKEKYEFVGCNFHIKYKTCQFEMSNSVPIGEHYLHYEPD
 
 ### name_taxid.dmp
 
-The relationship between each database sequence name and its taxonomic identifier (taxid) are given in this file. The taxonomic identifiers correspond to nodes in the taxonomy. Several database sequences can map to the same taxid. The information in this file must match that in the database sequences file above.
+The relationship between each database sequence name and its taxonomic identifier (taxid) are given in this tab-separated file. The taxonomic identifiers correspond to nodes in the taxonomy. Several database sequences can map to the same taxid. The information in this file must match that in the database sequences file above, like this `name<tab>taxid`.
 
 Example:
 
@@ -71,7 +71,7 @@ N    2
 
 ### child_parent.dmp
 
-The parent of each taxonomic node is given, using the taxonomic identifiers (taxid). This file defines the taxonomy tree. Note that each node has a single parent, except the root denoted with taxid `1` has no parent. The first column is taxid of a node and the second column is the taxid of its parent. The columns are separated by tabs and '|' separators as below.
+The parent of each taxonomic node is given, using the taxonomic identifiers (taxid). This file defines the taxonomy tree. Note that each node has a single parent, except the root denoted with taxid `1` has no parent. The first column is taxid of a node and the second column is the taxid of its parent. The columns are separated by tabs and `|` separators, like this `name<tab>|<tab>taxid<tab>|`.
 
 Example:
 
