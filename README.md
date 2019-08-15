@@ -2,7 +2,19 @@
 
 To enhance current capabilities for studying metagenomes and metatranscriptomes, we developed a highly scalable read classifier, PRROMenade, that allows for both taxonomic and functional classification. PRROMenade utilizes the generalized Burrows-Wheeler transform, enhanced with a labeling step to directly assign reads to a reference hierarchy.
 
+## Citation
+
+Please cite the following article if you use PRROMenade:
+
+Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Scalable Functional and Pathway Characterization of Microbiomes; (manuscript submitted) 
+
+## Contact
+
+For questions or comments, feel free to contact: Laxmi Parida <parida@us.ibm.com>
+
 ## Usage
+
+The executables released have been compiled and tested on Ubuntu 16.04.5 LTS 
 
 ### Build the index
 
@@ -20,11 +32,6 @@ For instance:
  
 ` ./taxonomic-classifier  -i /home/metagenomic/database_folder/ /home/metagenomic/File.read.fq.gz -t 72 -o /home/metagenomic/output.bin ` 
 
-## Citation
-
-Please cite the following article if you use PRROMenade:
-
-Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Scalable Functional and Pathway Characterization of Microbiomes; (manuscript submitted) 
 
 
 ## Input files and formats
