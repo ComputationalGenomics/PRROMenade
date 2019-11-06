@@ -6,7 +6,7 @@ To enhance current capabilities for studying metagenomes and metatranscriptomes,
 
 Please cite the following article if you use PRROMenade:
 
-Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Scalable Functional and Pathway Characterization of Microbiomes; (manuscript submitted) 
+Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Hierarchically labeled database indexing allows scalable characterization of microbiomes; (manuscript submitted) 
 
 ## Contact
 
