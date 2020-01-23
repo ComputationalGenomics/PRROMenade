@@ -94,3 +94,14 @@ ACGTACGATCGATCGTACGACTTCATTTTAGCTCGATGCACGGGCGG
 CAGCTGCTGACTAGCTATATATCATCTATACTTTTTTACGATGCACG
 ...
 ```
+
+## Output format
+The output will list for each read the assigned taxonomic identifier (taxid) and the length of the maximal exact match (in amino acids).
+In case there are equally long maximal exact matches for multiple possible coding frames (out of the possible six, three forward and three reverse), the equally good alternative answers are separated by `;`, like this `read_name<tab>taxid:length;taxid:length;...`.
+Example:
+```
+read1 2735:9;2730:9
+read2 1858:8
+read3 7242:8
+...
+```
