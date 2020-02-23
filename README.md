@@ -6,7 +6,7 @@ To enhance current capabilities for studying metagenomes and metatranscriptomes,
 
 Please cite the following article if you use PRROMenade:
 
-Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Hierarchically labeled database indexing allows scalable characterization of microbiomes. To be presented at RECOMB-Seq 2020
+Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt, Ritesh Krishna, James H. Kaufman and Laxmi Parida; Hierarchically labeled database indexing allows scalable characterization of microbiomes; to appear 2020
 
 ## Contact
 
