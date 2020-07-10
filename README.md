@@ -85,7 +85,7 @@ Example:
 
 The sequencing reads (the queries) are given in fasta of gzipped fasta format. Paired reads should be classified as two separate files and the results combined after PRROMenade classification.
 
-NOTE: Minimum acceptable read length is three (translating to one codon) when matching to an amino acid database.
+Note: Minimum possible read length is three (translating to one codon) when matching to an amino acid database.
 
 Example:
 
