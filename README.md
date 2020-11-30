@@ -28,11 +28,11 @@ For instance:
 
 ### Classification
 
-` ./taxonomic-classifier  -i <folder_with_index> <read_file> -t <num_proc> -o <out-bin-file> `
+` ./taxonomic-classifier  -i <folder_with_index/index_prefix> <read_file> -t <num_proc> -o <out-bin-file> `
   
  For instance:
  
-` ./taxonomic-classifier  -i /home/metagenomic/database_folder/ /home/metagenomic/File.read.fq.gz -t 72 -o /home/metagenomic/output.bin ` 
+` ./taxonomic-classifier  -i /home/metagenomic/database_folder/fgp_prromenade /home/metagenomic/File.read.fq.gz -t 72 -o /home/metagenomic/output.bin ` 
 
 
 
