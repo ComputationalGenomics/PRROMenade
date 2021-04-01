@@ -10,6 +10,7 @@ Filippo Utro, Niina Haiminen, Enrico Siragusa, Laura-Jayne Gardiner, Ed Seabolt,
 
 RECOMB-Seq 2020 conference presentation: https://www.youtube.com/watch?v=xxD0xr9jCQ0
 
+
 ## Contact
 
 For questions or comments, feel free to contact: Laxmi Parida <parida@us.ibm.com>
@@ -34,7 +35,13 @@ For instance:
  
 ` ./taxonomic-classifier  -i /home/metagenomic/database_folder/fgp_prromenade /home/metagenomic/File.read.fq.gz -t 72 -o /home/metagenomic/output.bin ` 
 
+## Pre-computed index
 
+A PRROMenade search index for hierarchical functional annotation of nucleotide sequences against bacterial and viral protein domains (amino acid sequences) is available at: https://developer.ibm.com/exchanges/data/all/prromenade/
+
+This index was used in: 
+
+Niina Haiminen, Filippo Utro, Ed Seabolt and Laxmi Parida: Functional profiling of COVID-19 respiratory tract microbiomes. Scientific Report, 2021. https://www.nature.com/articles/s41598-021-85750-0
 
 ## Input files and formats
 
