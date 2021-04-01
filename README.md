@@ -39,9 +39,9 @@ For instance:
 
 A PRROMenade search index for hierarchical functional annotation of nucleotide sequences against bacterial and viral protein domains (amino acid sequences) is available at: https://developer.ibm.com/exchanges/data/all/prromenade/
 
-This index was used in: 
+This index was described and used in: 
 
-Niina Haiminen, Filippo Utro, Ed Seabolt and Laxmi Parida: Functional profiling of COVID-19 respiratory tract microbiomes. Scientific Report, 2021. https://www.nature.com/articles/s41598-021-85750-0
+Niina Haiminen, Filippo Utro, Ed Seabolt and Laxmi Parida: Functional profiling of COVID-19 respiratory tract microbiomes. Scientific Reports, 2021. https://www.nature.com/articles/s41598-021-85750-0
 
 ## Input files and formats
 
